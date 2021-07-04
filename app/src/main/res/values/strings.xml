@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Android Challenge</string>
+    <string name="report_list">Report List</string>
+    <string name="biomarker_details">Biomarker Details</string>
+    <string name="info">Info</string>
+    <string name="insights">Insights</string>
+</resources>

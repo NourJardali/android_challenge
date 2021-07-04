@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginBottom="10dp"
+    android:background="?android:attr/selectableItemBackground"
+    android:orientation="horizontal">
+
+    <com.github.pavlospt.roundedletterview.RoundedLetterView
+        android:id="@+id/rlvSymbolView"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        app:rlv_backgroundColorValue="@color/gray"
+        app:rlv_titleColor="@color/black"
+        app:rlv_titleSize="18dp"
+        app:rlv_titleText="A"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:padding="10dp"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:typeface="sans"/>
+
+        <ImageView
+            android:id="@+id/arrowImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/ic_arrow"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
